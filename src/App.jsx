@@ -44,11 +44,6 @@ const paths = createBrowserRouter([
       </>
     )
   },
-
-  {
-    path: "*",
-    element: <Notfoundpage />,
-  },
 ]);
 
 
