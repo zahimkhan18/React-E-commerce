@@ -4,7 +4,6 @@ import Home from "./components/Home/Home";
 import Products from "./components/Products/Products";
 import About from "./components/About/About";
 import Contact from "./components/Contact/contact";
-import Notfoundpage from "./components/Notfoundpage/Notfoundpage";
 import Navbar from "./components/Navbar/Navbar";
 
 const paths = createBrowserRouter([
@@ -44,7 +43,11 @@ const paths = createBrowserRouter([
       </>
     )
   },
-]);
+],
+{
+  basename: "/React-E-commerce",
+}
+);
 
 
 function App() {
