@@ -5,10 +5,10 @@ import { Menu, X } from "lucide-react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <>
-      <div className="bg-gray-900 text-white flex justify-between items-center px-5 py-2">
-        <h1 className="text-xl font-medium cursor-pointer">
-          <Link to="/">Prestige Shoes</Link>
+    <header className="bg-gray-900 text-white px-5 py-3">
+      <div className="flex justify-between items-center">
+        <h1 className="text-xl font-medium">
+          <Link to="/">Prestige Wears</Link>
         </h1>
 
         {/* Hamburger Button (visible on mobile) */}
@@ -57,7 +57,7 @@ const Navbar = () => {
           </ul>
         </nav>
       )}
-    </>
+    </header>
   );
 };
 
