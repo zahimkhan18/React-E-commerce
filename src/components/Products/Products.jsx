@@ -51,6 +51,7 @@ const Products = () => {
 
   // Delete product
   const handleDelete = async (id) => {
+    console.log("Product deleted:", id);
     if (window.confirm("Are you sure you want to delete this product?")) {
       try {
         setDeleteLoading(id);

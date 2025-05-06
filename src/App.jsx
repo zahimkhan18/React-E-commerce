@@ -43,9 +43,8 @@ const paths = createBrowserRouter([
       </>
     )
   },
-],
-{
-  basename: "/React-E-commerce",
+], {
+  basename: "/React-E-commerce"
 }
 );
 
